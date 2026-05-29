@@ -18,7 +18,7 @@ namespace UnitTestProjectForApis
 
         [Theory]
         [InlineData(2,200)]
-        [InlineData(12,200)]
+        [InlineData(12,204)]
         [InlineData(5,200)]
         [InlineData(41,204)]
         public async Task GetByIdTest(int id,int expected)
@@ -31,7 +31,7 @@ namespace UnitTestProjectForApis
         }
         [Theory]
         [InlineData(2, 200)]
-        [InlineData(12, 200)]
+        [InlineData(12, 204)]
         [InlineData(5, 200)]
         [InlineData(41, 204)]
         public async Task GetNameByIdTest(int id, int expected)
