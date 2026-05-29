@@ -35,7 +35,7 @@ pipeline {
         stage("Deployment") {
             steps {
                 bat "del /q /s C:\\inetpub\\wwwroot\\coreapis\\*"
-                bat "xcopy /E /Y /I build\\* C:\\inetpub\\wwwroot\\coreapis\\"
+                bat "xcopy /E /Y /I publish\\* C:\\inetpub\\wwwroot\\coreapis\\"
             }
         }
     }
