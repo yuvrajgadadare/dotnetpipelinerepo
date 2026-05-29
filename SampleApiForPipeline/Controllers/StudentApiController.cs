@@ -46,6 +46,10 @@ namespace SampleApiForPipeline.Controllers
             studentlist.Add(new Student() { StudentId = 5, StudentName = "Dinesh", Qualification = "BCOM", Percentage = 28 });
             studentlist.Add(new Student() { StudentId = 6, StudentName = "Meena", Qualification = "BSC", Percentage = 21 });
             studentlist.Add(new Student() { StudentId = 7, StudentName = "Kumar", Qualification = "BA", Percentage = 89 });
+            studentlist.Add(new Student() { StudentId = 8, StudentName = "Krishna", Qualification = "BCA", Percentage = 89 });
+            studentlist.Add(new Student() { StudentId = 9, StudentName = "Leena", Qualification = "BBA", Percentage = 82 });
+            studentlist.Add(new Student() { StudentId = 10, StudentName = "Manoj", Qualification = "BCOM", Percentage = 19 });
+            studentlist.Add(new Student() { StudentId = 11, StudentName = "Suhas", Qualification = "MA", Percentage = 45 });
             return studentlist;
         }
     }
